@@ -1,6 +1,15 @@
 <template lang="html">
   <div>
     <!--rank-->
+    <p>级别分配</p>
+    <ul>
+      <li>0积分: 级别0</li>
+      <li>到达200积分: 级别1</li>
+      <li>到达500积分: 级别2</li>
+      <li>到达1000积分: 级别3</li>
+      <li>到达2000积分: 级别4</li>
+      <li>到达10000积分: 级别5</li>
+    </ul>
     <level-rank :currentRank='currentRank' :ranks='ranks'></level-rank>
   </div>
 </template>
